@@ -867,7 +867,9 @@ color: #fff}
 /* mission vision section here */
 .card_missionvision {
   display: inline-block;
-  width: 300px;
+  /* width: 300px; */
+  width: 100%;
+  height: 28rem;
   margin: 10px 8px 50px 8px;
   text-align: center;
   background-color: #ffffff;
@@ -1031,11 +1033,14 @@ padding:0 0 1rem 0;}
 /* ===================services page end here====================================== */
 /*============== contact us page start here================================================== */
 .top_banner_contactus{
-  background-image: url('../../assets/images/contactus.jpg');
+  /* background-image: url('../../assets/images/contactus.jpg'); */
+  /* background-image: url('../../assets/images/contact-us-2993000_1920.jpg'); */
+  background-image: url('../../assets/images/contact22.jpg');
+  /* background-image: url('../../assets/images/contact-us-4193637_1920.jpg'); */
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 85vh;
+  height: 90vh;
   margin-bottom: 4rem;}
 .top_banner_contactus h1{
   text-align: center;
@@ -1352,10 +1357,10 @@ footer{
   font-family: 'Open Sans', sans-serif;}
   
   footer .column{
-  width:19%;
+  width:23%;
   display:inline-block;
   vertical-align:top;
-  padding:10px;}
+  padding:10px 50px;}
   
   footer .column .footer_title{
   color:#fff !important;
@@ -1418,7 +1423,7 @@ footer{
   width:95%;
   display:block;}
   footer .column:not(:first-child){
-  width:40%;}
+  width:45%;}
   footer .column:nth-child(4),footer .column:nth-child(5){
   width:95%;
   display:block;}
@@ -1427,5 +1432,11 @@ footer{
   height:30px;
   font-size:1.1em;
   padding:3px 1px 3px 7px !important; }
+    
+  footer .column{
+    padding:10px;}
   }
   /*========================= footer end here =================*/
+  .card_missionvision{
+
+  }
