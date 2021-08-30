@@ -45,21 +45,21 @@ i {
 	transform: translateY(40px);
 	transition: transform .3s;}
 .navbar_color{
-	/* background-color: #fff; */
-    background-color: var(--heading_second_color);
+	background-color: #fff;
+    /* background-color: var(--heading_second_color); */
     /* background-color: rgb(162, 201, 254); */
     /* background-color: #2e363a; */
     /* background-color: #28304c !important; */
     box-shadow: -1px 6px 9px -6px rgba(0,0,0,0.82);
     -webkit-box-shadow: -1px 6px 9px -6px rgba(0,0,0,0.82);
     -moz-box-shadow: -1px 6px 9px -6px rgba(0,0,0,0.82);
-    color: #fff !important;}
+    color: #333 !important;}
 .navbar-expand-lg .navbar-nav li {
     padding-right: 1rem;
     letter-spacing: 1px;
     color: rgb(153, 139, 139) !important;} 
 .navbar-collapse ul li a{
-      color: #fff !important;
+      color: #333 !important;
       font-weight: 600;}
  .navbar-collapse ul li a:hover{
     /* color: var(--second_color) !important; */
