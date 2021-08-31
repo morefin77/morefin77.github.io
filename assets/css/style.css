@@ -1199,6 +1199,9 @@ textarea {
   font-weight: bold;}
 
 .btn_submit22:hover {
+  background: var(--green_color) !important;
+  color: #fff !important;
+  transition: .5s ease;
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
     rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;}
 
@@ -1270,6 +1273,7 @@ textarea {
 /*============== contact us page start here================================================== */
 .top_banner_contactus{
   height: 50vh;
+  object-fit: cover;
   margin-bottom: 4rem;}
 .top_banner_contactus h1{
   padding-top: 2rem;
@@ -1469,3 +1473,6 @@ footer{
     padding:10px;}
   }
   /*========================= footer end here =================*/
+.btn_submit22{
+
+}
