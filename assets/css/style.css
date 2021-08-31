@@ -26,6 +26,7 @@ i {
 	--first_color: #F5811D;
 	--second_color:#f1731a;
 	--heading_color:#0e4d96;
+  --green_color:#18ba60;
 	--heading_second_color:#0c59db;}
 .main_container{
     overflow-x: hidden;}
@@ -72,6 +73,34 @@ i {
     /* border-color: rgba(255,255,255,.1); */
     border-color: #333 !important;
     color: #333 !important;}
+    /* .circle_icon2{
+      border-radius: 50%;
+      height: 1.5rem;
+      width: 1.5rem;
+      background: var(--green_color);
+      display: inline-block;
+  
+    }
+    .circle_icon2 .fa{
+    color: #fff;
+    padding: .1rem;
+    font-size: .8rem;
+    } */
+    .circle_icon2 i{
+      width: 1.7rem !important;
+      height: 1.7rem !important;
+      border-radius: 50%;
+      background: var(--green_color);
+      text-align: center !important;
+      line-height: 28px;
+      color: #fff;
+      font-size:12px !important;
+      margin-right: .4rem;
+      margin-top:0 !important ;
+     display:inline-block !important;
+ 
+ 
+    }
 
 /*--------------------------------------------------------------------------------------
 PRELOADER
@@ -348,6 +377,7 @@ background: #fff !important;}
   width: 55%;
   float: right;
   background-color: #fdfdfd;
+    box-shadow: 1px 2px 5px rgb(0 0 0 / 15%);
   padding: 10px 80px;}
 
 .inner-container h2{
@@ -944,6 +974,7 @@ color: #fff}
 .servives_images22 img{
   width: 100%;
   height:32rem;
+  box-shadow: 1px 2px 5px rgb(0 0 0 / 15%);
   object-fit: cover;}
 .btn_services{
   background: #18ba60 !important;
@@ -966,6 +997,7 @@ transition: .3s ease !important;}
 .servives_images_sub img{
   width: 100%;
   height: 28rem;
+  box-shadow: 1px 2px 5px rgb(0 0 0 / 15%);
   object-fit: cover;}
 /* guarantee section start here */
 .box_guarantee{
@@ -1437,6 +1469,3 @@ footer{
     padding:10px;}
   }
   /*========================= footer end here =================*/
-  .card_missionvision{
-
-  }
